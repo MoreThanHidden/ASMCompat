@@ -1,0 +1,16 @@
+[
+{
+  "modid": "asmcompat",
+  "name": "ASM Compat",
+  "description": "Allows 1.10 mods to work on 1.11",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/MoreThanHidden/ASMCompat",
+  "updateUrl": "",
+  "authorList": ["MoreThanHidden"],
+  "credits": "",
+  "logoFile": "logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

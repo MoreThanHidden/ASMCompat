@@ -1,10 +1,13 @@
 package morethanhidden.asmcompat;
+
 import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
+import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin.MCVersion;
 
 import java.util.Map;
 
-@IFMLLoadingPlugin.MCVersion("1.11")
-@IFMLLoadingPlugin.TransformerExclusions({"morethanhidden.asmcompat"})
+@MCVersion("1.11")
+//TODO Find a better way to exclude base minecraft classes
+@IFMLLoadingPlugin.TransformerExclusions({"morethanhidden.asmcompat", "net.minecraft", "com.mojang", "paulscode.sound", "com.sun", "oshi", "io.netty", "com.google", "joptsimple", "gnu.trove", "com.jcraft"})
 public class ASMCompat implements IFMLLoadingPlugin {
 
     @Override

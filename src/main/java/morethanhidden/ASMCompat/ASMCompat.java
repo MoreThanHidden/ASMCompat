@@ -7,7 +7,7 @@ import java.util.Map;
 
 @MCVersion("1.11")
 //TODO Find a better way to exclude base minecraft classes
-@IFMLLoadingPlugin.TransformerExclusions({"morethanhidden.asmcompat", "net.minecraft", "com.mojang", "paulscode.sound", "com.sun", "oshi", "io.netty", "com.google", "joptsimple", "gnu.trove", "com.jcraft"})
+@IFMLLoadingPlugin.TransformerExclusions({"morethanhidden.asmcompat", "net.minecraft", "com.mojang", "paulscode.sound", "com.sun", "oshi", "io.netty", "com.google", "joptsimple", "gnu.trove", "com.jcraft", "org.slf4j", "javassist.ClassPath", "com.ibm", "Config"})
 public class ASMCompat implements IFMLLoadingPlugin {
 
     @Override

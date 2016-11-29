@@ -1,6 +1,6 @@
 package morethanhidden.testmod;
 
-//Testmod for 1.10 itemstacks will be removed from build
+//Testmod for 1.10 itemstacks (will be removed from build)
 
 import net.minecraft.block.Block;
 import net.minecraft.init.Items;

@@ -1,10 +1,8 @@
 package morethanhidden.asmcompat;
 
-import jdk.internal.org.objectweb.asm.ClassReader;
-import jdk.internal.org.objectweb.asm.ClassWriter;
-import jdk.internal.org.objectweb.asm.Opcodes;
-import jdk.internal.org.objectweb.asm.tree.*;
 import net.minecraft.launchwrapper.IClassTransformer;
+import org.objectweb.asm.*;
+import org.objectweb.asm.tree.*;
 
 import java.util.ArrayList;
 import java.util.List;
